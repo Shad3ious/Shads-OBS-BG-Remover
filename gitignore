@@ -1,0 +1,45 @@
+# Build
+build_x64/
+build/
+out/
+Release/
+Debug/
+x64/
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+.cmake/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.vcxproj.user
+
+# Installer output
+installer/files/
+installer/output/
+*.exe
+
+# ONNX Runtime deps (too large for git)
+deps/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/settings.json
